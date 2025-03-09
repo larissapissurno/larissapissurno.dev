@@ -2,7 +2,8 @@ export default function Home() {
   return (
     <div style={styles.container}>
       <div style={styles.title}>
-        Hi! 👋 I'm Larissa and this is my piece of internet.
+        <img src="/tec.jpeg" width={500} alt="Larissa" />
+        <p>Hi! 👋 I'm Larissa and this is my piece of internet.</p>
       </div>
 
       <div style={styles.content}>
@@ -40,6 +41,7 @@ const styles = {
   },
 
   title: {
+    flexDirection: "column",
     fontSize: 24,
     fontWeight: "bold",
     marginBottom: 48,
@@ -49,9 +51,6 @@ const styles = {
     display: "flex",
     alignItems: "center",
     gap: 24,
-
-    // border: "1px solid black",
-
     width: "50vw",
   },
 };
