@@ -5,19 +5,6 @@ export default function Home() {
         <img style={styles.img} src="/tec.jpeg" alt="Larissa" />
         <p>Hi! 👋 I'm Larissa and this is my piece of internet.</p>
       </div>
-
-      <div style={styles.content}>
-        <p>👩‍⚕️ Letícia Pissurno says: </p>
-        <img style={styles.img} src="/sis.jpg" alt="Sis" />
-      </div>
-      <div style={styles.content}>
-        <p>👩 💟 Taw says: </p>
-        <img style={styles.img} src="/taw.jpeg" width={300} alt="Taw" />
-      </div>
-      <div style={styles.content}>
-        <p>👩‍🎤 Anna says: </p>
-        <img style={styles.img} src="/anna.jpeg" width={300} alt="Anna" />
-      </div>
     </div>
   );
 }
