@@ -1,3 +1,16 @@
 export default function Home() {
-  return <div>Hi!, I'm Larissa Pissurno and this is my piece of internet!</div>;
+  return (
+    <div style={styles.container}>
+      Hi 👋 I'm Larissa and this is my piece of internet.
+    </div>
+  );
 }
+
+const styles = {
+  container: {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    height: "100vh",
+  },
+};
