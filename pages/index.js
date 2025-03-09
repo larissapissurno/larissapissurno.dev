@@ -12,5 +12,8 @@ const styles = {
     justifyContent: "center",
     alignItems: "center",
     height: "100vh",
+
+    fontFamily: "sans-serif",
+    fontSize: 24,
   },
 };
