@@ -7,7 +7,15 @@ export default function Home() {
 
       <div style={styles.content}>
         <p>👩‍⚕️ Letícia Pissurno says: </p>
-        <img src="/sis.jpg" width={200} alt="My sis loves me" />
+        <img src="/sis.jpg" width={300} alt="Sis" />
+      </div>
+      <div style={styles.content}>
+        <p>👩 💟 Taw says: </p>
+        <img src="/taw.jpeg" width={300} alt="Taw" />
+      </div>
+      <div style={styles.content}>
+        <p>👩‍🎤 Anna says: </p>
+        <img src="/anna.jpeg" width={300} alt="Anna" />
       </div>
     </div>
   );
