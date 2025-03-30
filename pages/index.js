@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <div style={styles.container}>
       <div style={styles.title}>
-        <img style={styles.img} src="/tec.jpeg" alt="Larissa" />
+        {/* <img style={styles.img} src="/tec.jpeg" alt="Larissa" /> */}
         <p>Hi! 👋 I'm Larissa and this is my piece of internet.</p>
       </div>
     </div>
